@@ -19,7 +19,7 @@ public class User {
     @Email
     private String email;
 
-    @Size(min=7, max=16)
+    @Size(min=4, max=16)
     private String password;
 
     private List<ImagePost> box = new ArrayList<>();
